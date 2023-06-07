@@ -109,7 +109,9 @@ class User extends Database{
                 }
             } 
             header("Location: ../views/dashboard.php");
-            exit();
+            exit(); ;
+            //this is the exit
+            
         } else {
             die("Error: " . $this->conn->error);
         }
